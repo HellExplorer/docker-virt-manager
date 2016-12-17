@@ -1,4 +1,4 @@
-FROM fedora:21
+FROM fedora:latest
 
 RUN yum update -y
 RUN yum install -y virt-manager
